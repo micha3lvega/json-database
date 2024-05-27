@@ -1,0 +1,65 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Camiseta",
+        "price": 20.99,
+        "stock": 50
+      },
+      {
+        "id": 2,
+        "name": "Pantalones",
+        "price": 34.99,
+        "stock": 30
+      },
+      {
+        "id": 3,
+        "name": "Zapatos",
+        "price": 49.99,
+        "stock": 20
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "name": "Juan",
+        "email": "juan@example.com"
+      },
+      {
+        "id": 2,
+        "name": "María",
+        "email": "maria@example.com"
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "customerId": 1,
+        "date": "2024-05-27",
+        "status": "Pendiente",
+        "items": [
+          {
+            "productId": 1,
+            "quantity": 2
+          },
+          {
+            "productId": 2,
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "customerId": 2,
+        "date": "2024-05-26",
+        "status": "Entregado",
+        "items": [
+          {
+            "productId": 3,
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  }
+  
